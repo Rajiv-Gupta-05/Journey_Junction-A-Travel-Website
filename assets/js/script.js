@@ -4,9 +4,6 @@ window.addEventListener("load", () => {
     preloader.classList.add("remove");
 }); 
 
-
-
-
 // add events on multiple elements 
 
 const addEventOnElements = function (elements, eventType, callback){
@@ -14,8 +11,6 @@ const addEventOnElements = function (elements, eventType, callback){
         elements[i].addEventListener(eventType, callback);
     }
 }
-
-
 
 // navbar toggler for mobile 
 
